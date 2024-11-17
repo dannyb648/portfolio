@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/footer.css";
@@ -15,9 +14,9 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/about">About</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						{/* <li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
-						</li>
+						</li> */}
 						<li className="footer-nav-link-item">
 							<Link to="/articles">Articles</Link>
 						</li>
@@ -29,7 +28,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
+						UI Design by Tharindu.dev
 					</div>
 				</div>
 			</div>

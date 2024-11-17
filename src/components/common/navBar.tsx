@@ -29,7 +29,7 @@ const NavBar = (props: { active?: string }): JSX.Element => {
 							>
 								<Link to="/about">About</Link>
 							</li>
-							<li
+							{/* <li
 								className={
 									active === "projects"
 										? "nav-item active"
@@ -37,7 +37,7 @@ const NavBar = (props: { active?: string }): JSX.Element => {
 								}
 							>
 								<Link to="/projects">Projects</Link>
-							</li>
+							</li> */}
 							<li
 								className={
 									active === "articles"

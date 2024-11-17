@@ -11,15 +11,14 @@ interface Article {
 
 function article_1(): Article {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "17 Nov 2024",
+		title: "The Boiler Metric: How blowing up my boiler improved my 121s",
 		description:
 			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"The Boiler Metric",
+			"Daniel Beglin",
+			"Dan Beglin",
 		],
 		body: (
 			<React.Fragment>
